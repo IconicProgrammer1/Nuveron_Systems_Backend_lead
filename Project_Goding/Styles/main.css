@@ -150,3 +150,31 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/* Mobile responsive */
+@media screen and (max-width: 430px) and (min-width: 300px) {
+    body {
+    background-color: lightgreen;
+    }
+    header nav .menu ul li {
+        display: none;
+    }
+    header nav .menu ul button {
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: blue;
+    font-size: 10px;
+}
+header nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+header nav .logo img {
+    width: 20px;
+}
+header nav .logo h1 {
+    font-size: 14px;
+}
+}
