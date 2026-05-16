@@ -175,6 +175,9 @@ header nav .logo img {
     width: 20px;
 }
 header nav .logo h1 {
-    font-size: 14px;
+    font-size: 17px;
+}
+header nav {
+    padding: 10px 20px;
 }
 }
